@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.i.linearlayout.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,One" />
+
+        <Button
+            android:id="@+id/bn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="One,Two" />
+        <Button
+            android:id="@+id/bn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Three" />
+
+        <Button
+            android:id="@+id/bn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Four" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,One" />
+
+        <Button
+            android:id="@+id/bn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="two,Two" />
+        <Button
+            android:id="@+id/bn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,Three" />
+
+        <Button
+            android:id="@+id/bn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,Four" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,One" />
+
+        <Button
+            android:id="@+id/bn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="three,Two" />
+        <Button
+            android:id="@+id/bn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,Three" />
+
+        <Button
+            android:id="@+id/bn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="three,Four" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,One" />
+
+        <Button
+            android:id="@+id/bn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="four,Two" />
+        <Button
+            android:id="@+id/bn15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,Three" />
+
+        <Button
+            android:id="@+id/bn16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="four,Four" />
+    </LinearLayout>
+
+</LinearLayout>
